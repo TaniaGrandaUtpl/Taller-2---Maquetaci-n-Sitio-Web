@@ -1,0 +1,73 @@
+/* Footer */
+
+section {
+    height: auto;
+}
+
+h2{
+    margin-top: 35px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 40%;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(236, 236, 230, 0.514);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+    border: 1px solid black;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 92.5%;
+    min-width: 10%;
+    max-height: 100px;
+    min-height: 100px;
+    background: rgba(236, 236, 230, 0.514);
+    padding: 13px;
+    margin-left: 25px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+    margin-left: 455px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+}

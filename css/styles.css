@@ -1,0 +1,125 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header h1{
+    text-align: center;
+    background-color: #FFF;
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: black;
+    position: relative;
+}
+
+.borde{
+    background-color: #AA4B41;
+    padding-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    height: 820px;
+    background-color: #353C3F;
+    width: 250px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    color: #fff;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #AA4B41;
+    color: white;
+}
+
+.contenido{
+    width: 77%;
+    height: 100%;
+    float: right;
+    border: 3px solid #063852;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 25px;
+    position: static;
+}
+
+.contenido h2{
+    text-align: center;
+}
+
+.newspaper{
+    column-count: 2;
+    text-align: justify;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+
+.imgPiePag{
+    float: right;
+    width: 81%;
+    padding-top: 30px;
+}
+
+.imgPiePag img{
+    width: 90%;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.titulo{
+    width: 100%;
+    height: 250px;
+    background-image: url(/img/img14.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: #FD974F;
+    text-align: center;
+}
+
+.titulo h2{
+    padding-top: 5Spx;
+    font-size: 40px;
+}
+
+
+i{
+    color: white;
+    background: rgba(255,255,255,0);
+    padding-right: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    position: static;
+    margin-top: 820px;
+    background: #353C3F;
+}
+
+
